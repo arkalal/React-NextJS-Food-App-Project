@@ -12,11 +12,30 @@ const Navbar = () => {
 
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
-          <div className={styles.text}>7365052973</div>
+          <div className={styles.text}>9434019636</div>
         </div>
       </div>
-      <div className={styles.item}></div>
-      <div className={styles.item}></div>
+
+      <div className={styles.item}>
+        <ul className={styles.list}>
+          <li className={styles.listItem}>Homepage</li>
+          <li className={styles.listItem}>Products</li>
+          <li className={styles.listItem}>Menu</li>
+
+          <Image src="/img/logo.png" alt="" width="160px" height="69px"></Image>
+
+          <li className={styles.listItem}>Events</li>
+          <li className={styles.listItem}>Blog</li>
+          <li className={styles.listItem}>Contact</li>
+        </ul>
+      </div>
+
+      <div className={styles.item}>
+        <div className={styles.cart}>
+          <Image src="/img/cart.png" alt="" width="30px" height="30px"></Image>
+          <div className={styles.counter}>2</div>
+        </div>
+      </div>
     </div>
   );
 };
